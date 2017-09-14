@@ -331,6 +331,10 @@ figcaption a:hover {
 	margin: 0 auto;
 }
 
+.relative {
+	position: relative;
+}
+
 .red {
 	color: #E87676;
 }
@@ -367,7 +371,7 @@ White
 */
 
 #white {
-	padding: 275px 0;
+	padding: 300px 0;
 	color: #171616;
 	p {
 		font-size: 18px;
@@ -377,7 +381,11 @@ White
 	}
 	img {
 		width: 100%;
-		max-width: 500px;
+		max-width: 400px;
+	}
+	.retailImage {
+		position: absolute;
+		top: 125%;
 	}
 }
 
@@ -388,7 +396,7 @@ Gray
 */
 
 #gray {
-	padding: 275px 0;
+	padding: 300px 0;
 	background-color: #F8F8F8;
 	color: #171616;
 	p {
@@ -399,7 +407,11 @@ Gray
 	}
 	img {
 		width: 100%;
-		max-width: 500px;
+		max-width: 400px;
+	}
+	.locationImage {
+		position: absolute;
+		top: 125%;
 	}
 }
 

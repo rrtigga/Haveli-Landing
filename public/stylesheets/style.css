@@ -991,6 +991,9 @@ figcaption a:hover {
 .centerDiv {
   margin: 0 auto; }
 
+.relative {
+  position: relative; }
+
 .red {
   color: #E87676; }
 
@@ -1021,7 +1024,7 @@ White
 ========================================================================================
 */
 #white {
-  padding: 275px 0;
+  padding: 300px 0;
   color: #171616; }
   #white p {
     font-size: 18px;
@@ -1030,7 +1033,10 @@ White
     color: #9B9B9B; }
   #white img {
     width: 100%;
-    max-width: 500px; }
+    max-width: 400px; }
+  #white .retailImage {
+    position: absolute;
+    top: 125%; }
 
 /* 
 ========================================================================================
@@ -1038,7 +1044,7 @@ Gray
 ========================================================================================
 */
 #gray {
-  padding: 275px 0;
+  padding: 300px 0;
   background-color: #F8F8F8;
   color: #171616; }
   #gray p {
@@ -1048,7 +1054,10 @@ Gray
     color: #9B9B9B; }
   #gray img {
     width: 100%;
-    max-width: 500px; }
+    max-width: 400px; }
+  #gray .locationImage {
+    position: absolute;
+    top: 125%; }
 
 /* 
 ========================================================================================
