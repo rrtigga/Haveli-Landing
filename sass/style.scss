@@ -212,6 +212,7 @@ a {
 		width: 100%;
 		overflow-y: hidden;
 		overflow-x: auto;
+		padding-top: 2rem;
 	}
 }
 .navbar > .list.-on {
@@ -345,7 +346,7 @@ Mission
 */
 
 #mission {
-	padding: 50px 0;
+	padding: 75px 0;
 	background-color: #F8F8F8;
 	color: #171616;
 	p {
@@ -356,6 +357,49 @@ Mission
 	img {
 		width: 100%;
 		max-width: 350px;
+	}
+}
+
+/* 
+========================================================================================
+White
+========================================================================================
+*/
+
+#white {
+	padding: 275px 0;
+	color: #171616;
+	p {
+		font-size: 18px;
+		letter-spacing: 0.4px;
+		line-height: 30px;
+		color: #9B9B9B;
+	}
+	img {
+		width: 100%;
+		max-width: 500px;
+	}
+}
+
+/* 
+========================================================================================
+Gray
+========================================================================================
+*/
+
+#gray {
+	padding: 275px 0;
+	background-color: #F8F8F8;
+	color: #171616;
+	p {
+		font-size: 18px;
+		letter-spacing: 0.4px;
+		line-height: 30px;
+		color: #9B9B9B;
+	}
+	img {
+		width: 100%;
+		max-width: 500px;
 	}
 }
 
