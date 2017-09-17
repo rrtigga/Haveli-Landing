@@ -1036,7 +1036,10 @@ White
     max-width: 400px; }
   #white .retailImage {
     position: absolute;
-    top: 125%; }
+    top: 150%; }
+  @media only screen and (max-width: 768px) {
+    #white .retailImage {
+      top: 500%; } }
 
 /* 
 ========================================================================================
@@ -1057,7 +1060,47 @@ Gray
     max-width: 400px; }
   #gray .locationImage {
     position: absolute;
-    top: 125%; }
+    top: 150%; }
+  @media only screen and (max-width: 768px) {
+    #gray .locationImage {
+      top: 600px; } }
+
+/* 
+========================================================================================
+Congrats
+========================================================================================
+*/
+#congrats {
+  padding: 300px 0;
+  background-color: #607D8B;
+  color: white; }
+  #congrats .touchButton {
+    margin-top: 20px;
+    display: table;
+    background: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 15px 45px;
+    border: 3px solid white;
+    border-radius: 6px; }
+
+/* 
+========================================================================================
+Footer
+========================================================================================
+*/
+#footer {
+  padding: 75px 0;
+  color: #171616; }
+  #footer p, #footer a {
+    font-size: 16px;
+    color: #171616;
+    display: inline;
+    margin: 0 10px; }
+  #footer img {
+    width: 100%;
+    max-width: 25px; }
 
 /* 
 ========================================================================================
