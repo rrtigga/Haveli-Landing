@@ -14,11 +14,11 @@
 	<section id="hero">
 		<div class="navbar-component">
 			<div class="navbar area">
-				<a href="index.html" class="logo brand">Haveli</a>
+				<a class="logo brand">Haveli</a>
 				<nav role="navigation" id="navigation" class="list">
-					<a href="" class="item -link">About</a>
-					<a href="" class="item -link">How It Works</a>
-					<a href="" class="item -link">Sign Up</a>
+					<a data-scroll data-options='{ "easing": "easeInOutQuad" }' href="#mission" class="item -link">About</a>
+					<a data-scroll data-options='{ "easing": "easeInOutQuad" }' href="#white" class="item -link">How It Works</a>
+					<a target="_blank" href="https://haveli.typeform.com/to/BS3Emz" class="item -link">Sign Up</a>
 				</nav>
 				<button id="navButton" data-collapse data-target="#navigation" class="toggle">
 					<span class="icon"></span>
@@ -27,7 +27,7 @@
 		</div>
 		<div class="container">
 			<h1>Give your brand a home.</h1>
-			<a href=""><button class="signupButton">Learn More</button></a>
+			<a data-scroll data-options='{ "easing": "easeInOutQuad" }' href="#mission"><button class="signupButton">Learn More</button></a>
 		</div>
 	</section>
 	<section id="mission">
@@ -47,7 +47,7 @@
 		<div class="container">
 			<div class="columns">
 				<div class="column is-7">
-					<h2>90% of retail still happens offline. We take your brand to the real world so you can focus on making sales.</h2>
+					<h2>90% of retail still happens offline. We take your brand to the real world so you can capture this market.</h2>
 					<p>In order for V-commerce companies to tap into this market, they have three options: pop-up stores, retail stores, or flagship stores. Pop-up stores are time consuming to scale, retail stores can be risky, and flag ship stores are very expensive.</p>
 				</div>
 				<div class="column relative">
@@ -88,7 +88,7 @@
 				<div class="column">
 					<h2>Congratulations! You made it down here. That means one of two things:</h2>
 					<p>Either you loved scrolling down our beautiful website or you want to get a Haveli container to reach more customers and spread your brand across the world. If it’s the latter (which we hope it is), you’re in luck. Sign up for Haveli. We’re looking forward to working with you!</p>
-					<a href=""><button class="touchButton">Get In Touch</button></a>
+					<a target="_blank" href="https://haveli.typeform.com/to/BS3Emz"><button class="touchButton">Get In Touch</button></a>
 				</div>
 			</div>
 		</div>
@@ -98,20 +98,24 @@
 			<div class="columns">
 				<div class="column">	
 					<p>2017 Haveli Inc.</p>
-					<a href=""><p>Contact</p></a>
+					<!-- <a href=""><p>Contact</p></a>
 					<a href=""><p>Press</p></a>
-					<a href=""><p>Jobs</p></a>
+					<a href=""><p>Jobs</p></a> -->
 				</div>
 				<div class="column">	
-					<a href=""><img src="/images/facebook.png"></a>
+					<!-- <a href=""><img src="/images/facebook.png"></a>
 					<a href=""><img src="/images/twitter.png"></a>
 					<a href=""><img src="/images/instagram.png"></a>
-					<a href=""><img src="/images/linkedin.png"></a>
+					<a href=""><img src="/images/linkedin.png"></a> -->
 				</div>
 			</div>
 		</div>
 	</footer>
 	<script src="/javascripts/jquery-3.1.1.min.js" type="text/javascript"></script>
 	<script src="/javascripts/nav.js" type="text/javascript"></script>
+	<script src="/javascripts/smooth-scroll.js" type="text/javascript"></script>
+	<script>
+		var scroll = new SmoothScroll('a[href*="#"]');
+	</script>
 </body>
 </html>
