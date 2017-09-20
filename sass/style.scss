@@ -380,11 +380,11 @@ Mission
 
 /* 
 ========================================================================================
-White
+Retail 
 ========================================================================================
 */
 
-#white {
+#retail {
 	padding: 300px 0;
 	color: #171616;
 	p {
@@ -416,11 +416,11 @@ White
 
 /* 
 ========================================================================================
-Gray
+Tour
 ========================================================================================
 */
 
-#gray {
+#tour {
 	padding: 300px 0;
 	background-color: #F8F8F8;
 	color: #171616;
@@ -441,6 +441,42 @@ Gray
 	@media only screen and (max-width: 768px) {
 		.locationImage {
 			top: 600px;
+		}
+	}
+	@media only screen and (max-width: $breakpoint-small) {
+		img {
+			width: 85%;
+			max-width: 300px;
+		}
+	}
+}
+
+/* 
+========================================================================================
+Commission
+========================================================================================
+*/
+
+#commission {
+	padding: 300px 0;
+	color: #171616;
+	p {
+		font-size: 18px;
+		letter-spacing: 0.4px;
+		line-height: 30px;
+		color: #9B9B9B;
+	}
+	img {
+		width: 100%;
+		max-width: 400px;
+	}
+	.retailImage {
+		position: absolute;
+		top: 150%;
+	}
+	@media only screen and (max-width: 768px) {
+		.retailImage {
+			top: 500%;
 		}
 	}
 	@media only screen and (max-width: $breakpoint-small) {

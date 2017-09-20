@@ -1028,56 +1028,83 @@ Mission
 
 /* 
 ========================================================================================
-White
+Retail 
 ========================================================================================
 */
-#white {
+#retail {
   padding: 300px 0;
   color: #171616; }
-  #white p {
+  #retail p {
     font-size: 18px;
     letter-spacing: 0.4px;
     line-height: 30px;
     color: #9B9B9B; }
-  #white img {
+  #retail img {
     width: 100%;
     max-width: 400px; }
-  #white .retailImage {
+  #retail .retailImage {
     position: absolute;
     top: 150%; }
   @media only screen and (max-width: 768px) {
-    #white .retailImage {
+    #retail .retailImage {
       top: 500%; } }
   @media only screen and (max-width: 33.75em) {
-    #white img {
+    #retail img {
       width: 85%;
       max-width: 300px; } }
 
 /* 
 ========================================================================================
-Gray
+Tour
 ========================================================================================
 */
-#gray {
+#tour {
   padding: 300px 0;
   background-color: #F8F8F8;
   color: #171616; }
-  #gray p {
+  #tour p {
     font-size: 18px;
     letter-spacing: 0.4px;
     line-height: 30px;
     color: #9B9B9B; }
-  #gray img {
+  #tour img {
     width: 100%;
     max-width: 400px; }
-  #gray .locationImage {
+  #tour .locationImage {
     position: absolute;
     top: 150%; }
   @media only screen and (max-width: 768px) {
-    #gray .locationImage {
+    #tour .locationImage {
       top: 600px; } }
   @media only screen and (max-width: 33.75em) {
-    #gray img {
+    #tour img {
+      width: 85%;
+      max-width: 300px; } }
+
+/* 
+========================================================================================
+Commission
+========================================================================================
+*/
+#commission {
+  padding: 300px 0;
+  color: #171616; }
+  #commission p {
+    font-size: 18px;
+    letter-spacing: 0.4px;
+    line-height: 30px;
+    color: #9B9B9B; }
+  #commission img {
+    width: 100%;
+    max-width: 400px; }
+  #commission .retailImage {
+    position: absolute;
+    top: 150%; }
+  @media only screen and (max-width: 768px) {
+    #commission .retailImage {
+      top: 500%; } }
+  @media only screen and (max-width: 33.75em) {
+    #commission img {
       width: 85%;
       max-width: 300px; } }
 
