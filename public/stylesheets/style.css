@@ -751,7 +751,7 @@ body {
     display: table;
     background: #E87676;
     color: white;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
     padding: 15px 45px;
     border: 6px solid #E87676;
@@ -948,6 +948,10 @@ h2 {
   letter-spacing: 0.8px;
   line-height: 40px; }
 
+@media only screen and (max-width: 33.75em) {
+  h2 {
+    font-size: 26px; } }
+
 p {
   font-size: 20px;
   letter-spacing: 0.4px;
@@ -1017,6 +1021,10 @@ Mission
   #mission img {
     width: 100%;
     max-width: 350px; }
+  @media only screen and (max-width: 33.75em) {
+    #mission img {
+      width: 85%;
+      max-width: 275px; } }
 
 /* 
 ========================================================================================
@@ -1040,6 +1048,10 @@ White
   @media only screen and (max-width: 768px) {
     #white .retailImage {
       top: 500%; } }
+  @media only screen and (max-width: 33.75em) {
+    #white img {
+      width: 85%;
+      max-width: 300px; } }
 
 /* 
 ========================================================================================
@@ -1064,6 +1076,10 @@ Gray
   @media only screen and (max-width: 768px) {
     #gray .locationImage {
       top: 600px; } }
+  @media only screen and (max-width: 33.75em) {
+    #gray img {
+      width: 85%;
+      max-width: 300px; } }
 
 /* 
 ========================================================================================
@@ -1084,6 +1100,9 @@ Congrats
     padding: 15px 45px;
     border: 2px solid white;
     border-radius: 6px; }
+  @media only screen and (max-width: 33.75em) {
+    #congrats p {
+      font-size: 18px; } }
 
 /* 
 ========================================================================================
