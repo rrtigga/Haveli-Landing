@@ -1051,7 +1051,9 @@ Retail
   @media only screen and (max-width: 33.75em) {
     #retail img {
       width: 85%;
-      max-width: 300px; } }
+      max-width: 300px; }
+    #retail .retailImage {
+      top: 700%; } }
 
 /* 
 ========================================================================================
@@ -1106,7 +1108,9 @@ Commission
   @media only screen and (max-width: 33.75em) {
     #commission img {
       width: 85%;
-      max-width: 300px; } }
+      max-width: 300px; }
+    #commission .retailImage {
+      top: 700%; } }
 
 /* 
 ========================================================================================

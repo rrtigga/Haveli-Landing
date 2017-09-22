@@ -65,5 +65,10 @@ app.use(function(err, req, res, next) {
   });
 });
 
+var https = require("https");
+setInterval(function() {
+    https.get("http://www.shophaveli.com/");
+}, 300000); // every 5 minutes (300000)
+
 
 module.exports = app;
