@@ -67,7 +67,7 @@ app.use(function(err, req, res, next) {
 
 var https = require("https");
 setInterval(function() {
-    https.get("http://www.shophaveli.com/");
+    https.get("https://floating-inlet-58429.herokuapp.com/");
 }, 300000); // every 5 minutes (300000)
 
 
