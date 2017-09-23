@@ -1,6 +1,7 @@
 @import url(./fonts.scss);
 @import "./node_modules/bulma/sass/utilities/_all";
 @import "./node_modules/bulma/sass/grid/columns";
+@import "./node_modules/balloon-css/src/balloon.scss";
 
 /* 
 ========================================================================================
@@ -433,6 +434,12 @@ Tour
 		line-height: 30px;
 		color: #9B9B9B;
 	}
+	p.hoverLocations {
+		color: #E87676;
+	}
+	span {
+		font-size: 18px;
+	}
 	img {
 		width: 100%;
 		max-width: 400px;
@@ -451,6 +458,9 @@ Tour
 			width: 85%;
 			max-width: 300px;
 		}
+	}
+	[data-balloon]:after {
+		font-size: 14px !important;
 	}
 }
 
