@@ -1420,11 +1420,16 @@ Tour
     top: 150%; }
   @media only screen and (max-width: 768px) {
     #tour .locationImage {
-      top: 600px; } }
+      top: 40em; } }
   @media only screen and (max-width: 33.75em) {
     #tour img {
       width: 85%;
-      max-width: 300px; } }
+      max-width: 300px; }
+    #tour .locationImage {
+      top: 45em; } }
+  @media only screen and (max-width: 20em) {
+    #tour .locationImage {
+      top: 48.5em; } }
   #tour [data-balloon]:after {
     font-size: 14px !important; }
 

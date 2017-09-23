@@ -10,6 +10,8 @@ Mixins
 */
 $width: 96%;
 $gutter: 4%;
+
+$breakpoint-x-small: 20em; //320px;
 $breakpoint-small: 33.75em; // 540px
 $breakpoint-med: 45em; // 720px
 $breakpoint-large: 60em; // 960px
@@ -450,7 +452,7 @@ Tour
 	}
 	@media only screen and (max-width: 768px) {
 		.locationImage {
-			top: 600px;
+			top: 40em;
 		}
 	}
 	@media only screen and (max-width: $breakpoint-small) {
@@ -458,7 +460,17 @@ Tour
 			width: 85%;
 			max-width: 300px;
 		}
+		.locationImage {
+			top: 45em;
+		}
+		
 	}
+	@media only screen and (max-width: $breakpoint-x-small) {
+		.locationImage {
+			top: 48.5em;
+		}
+	}
+
 	[data-balloon]:after {
 		font-size: 14px !important;
 	}
