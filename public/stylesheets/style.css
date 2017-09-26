@@ -1344,6 +1344,9 @@ figcaption a:hover {
   background: #E87676;
   color: white; }
 
+.overflowHidden {
+  overflow: hidden; }
+
 /* 
 ========================================================================================
 Mission
