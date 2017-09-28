@@ -49,7 +49,7 @@
 		<div class="container">
 			<div class="columns">
 				<div class="column">
-					<img src="/images/dark.jpg">
+					<img class="verticalDark" src="/images/dark.jpg">
 				</div>
 				<div class="column">
 					<h2>Meet your people.</h2>
@@ -80,7 +80,22 @@
 				<div class="column is-7">
 					<h2>A house that follows you.</h2>
 					<p>Once you build your experience, take it on tour to share it with your customers and meet new ones along the way. Haveli takes care of the logistics and finds the perfect locations for your brand. You could be in over fifteen markets in six months.</p>
-					<p class="hoverLocations" data-balloon-length="fit" data-balloon="Current Cities: San Francisco, San Jose, Santa Cruz, San Luis Obispo, Santa Barbara, San Diego, Los Angeles, San Diego" data-balloon-pos="up">See Our Locations</p>    
+					<div class="modal-container">
+						<input id="modal-toggle" type="checkbox">
+						<label for="modal-toggle"><p class="hoverLocations">See Our Locations</p></label> 
+						<label class="modal-backdrop" for="modal-toggle"></label>
+						<div class="modal-content">
+							<label class="modal-close" for="modal-toggle">&#x2715;</label>
+							<h2>Current Cities:</h2>
+							<p>San Francisco</p>
+							<p>San Jose</p>
+							<p>Santa Cruz</p>
+							<p>San Luis Obispo</p>
+							<p>Santa Barbara</p>
+							<p>San Diego</p>
+							<p>Los Angeles</p>
+						</div>          
+					</div>    
 				</div>
 			</div>	
 		</div>
